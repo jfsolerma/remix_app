@@ -1,15 +1,15 @@
 export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
-      <h1>Welcome to Remix</h1>
+      <h1>sadjfldsa</h1>
       <ul>
         <li>
           <a
             target="_blank"
-            href="http://localhost:3000/pantalla3"
+            href="https://remix.run/tutorials/blog"
             rel="noreferrer"
           >
-            15m Quickstart Blog Tutorial
+            Hola
           </a>
         </li>
         <li>
@@ -18,7 +18,7 @@ export default function Index() {
             href="https://remix.run/tutorials/jokes"
             rel="noreferrer"
           >
-            Deep Dive Jokes App Tutorial
+            adsfas
           </a>
         </li>
         <li>
