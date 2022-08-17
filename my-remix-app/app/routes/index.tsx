@@ -1,32 +1,20 @@
 export default function Index() {
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
-      <h1>Welcome to Remix</h1>
-      <ul>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/blog"
-            rel="noreferrer"
-          >
-            15m Quickstart Blog Tutorial
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/jokes"
-            rel="noreferrer"
-          >
-            Deep Dive Jokes App Tutorial
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://remix.run/docs" rel="noreferrer">
-            Remix Docs
-          </a>
-        </li>
-      </ul>
+  <form>
+    <h3>Login Here</h3>
+
+    <label htmlFor="username">Username</label>
+    <input type="text" placeholder="Email or Phone" id="username"/>
+
+    <label htmlFor ="password">Password</label>
+    <input type="password" placeholder="Password" id="password"/>
+
+    <button>Log In</button>
+    <div className="social">
+      <div className="go"><i className="fab fa-google"></i> Google</div>
+      <div className="fb"><i className="fab fa-facebook"></i> Facebook</div>
     </div>
+  </form>
+
   );
 }
